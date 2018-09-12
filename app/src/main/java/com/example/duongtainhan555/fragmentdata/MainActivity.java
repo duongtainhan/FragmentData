@@ -54,3 +54,7 @@ public class MainActivity extends AppCompatActivity implements ActionPoint {
     }
 }
 
+// Lưu ý:
+// Khi truyền dữ liệu bằng interface thì Fragment phải được khởi tạo vào layout XML của Activity
+// Còn nếu chưa, thì dùng Bundle để chuyển dữ liệu
+
